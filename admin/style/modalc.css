@@ -1,0 +1,32 @@
+ 
+.pics{
+	background: rgba(0,0,0,.5);
+}
+
+
+.pics .modal-header{
+	position: absolute;
+	left: 89%; 
+	top: -50px;
+	border: none;
+
+}
+
+.pics .modal-header button{
+	padding: 20px; 
+	color: #fff;
+}
+
+.pics .modal-header span{
+	font-size: 20px!important;
+}
+
+
+.modal-body{
+	opacity: 1!important;
+	margin: 20px!important;
+}
+
+.pics button{
+	display: block;
+}

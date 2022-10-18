@@ -1,0 +1,123 @@
+a{
+	color: black; 
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+.green{
+	background: #7BCA78;
+	border: 1px solid green;
+}
+
+.red{
+	background: #E15D4B;
+	border: 1px solid red;
+}
+
+.eye{
+	display: none;
+}
+
+ul{
+	list-style-type: none;
+}
+.table-head{
+	width: 100%;
+	color: #19B3D3;
+}
+
+.table-head h6{
+	width: calc(100%/6);
+}
+
+.table{
+	width: 100%;
+	background: #fff;
+	height: 50px;	
+	cursor: pointer;
+	position: relative;
+	display: flex; 
+	justify-content: space-between;
+	box-shadow: 0px 6px 30px rgba(0,0,0, .16);
+}
+
+.table:hover{
+	top: -2px;
+}
+
+.table div{ 
+	padding-top: 10px; 
+	overflow: hidden;
+	margin-right: 10px;
+	padding-bottom: 10px; 
+	width: calc(100%/6);
+}
+
+.table div:first-child{ 
+	padding: 0px;
+	padding-left: 10px;
+}
+
+.table div img{
+	width: 47px;
+	height: 47px;
+	margin-top: 2px;	 
+	border-radius: 50%;
+}
+
+.table div span{ 
+	border-radius: 10px;
+	font-size: 12px;
+
+}
+
+.table div i{
+	font-size: 18px;
+	margin-left: 9px;
+}
+
+.add a{
+	color: #fff;
+	padding: 6px;
+	width: 60px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer; 
+}
+
+.add a i{
+	margin-right: 4px;
+}
+
+.modal input{
+	height: 30px;
+	width: 290px;
+	padding-left: 10px;
+}
+
+ 
+
+.list{
+	max-height: 600px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+ .list::-webkit-scrollbar{
+ 		width: 7px;
+ 		cursor: pointer;
+}
+
+.list::-webkit-scrollbar-thumb{
+ 		background-color: rgba(0,0,0,.2);
+ 		border-radius: 7px;
+}
+
+ @media only screen and (max-width: 780px){
+ 	.table div i{
+	font-size: 18px;
+	margin-left: 2px;
+}
+ }

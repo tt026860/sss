@@ -1,0 +1,60 @@
+  
+
+.rr{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+/*  animation: animate 16s  ease-in-out infinite;
+  background-size: cover;
+  background-repeat: repeat-;
+  */ 
+
+}
+
+ 
+
+  .details{
+    position: absolute;
+    left: 50%;
+    top: 50% ;
+     width:30rem;
+    box-shadow: 0px 16px 30px rgba(0,0,0, .1);
+    border-radius: 10px; 
+    background: #fff;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+@keyframes animate{
+  0%, 100%{
+    background-image: url(1.jpg);
+  }
+  25%{
+    background-image: url(2.jpg);
+  }
+  50%{
+    background-image: url(1.jpg);
+  }
+  75%{
+    background-image: url(2.jpg);
+  }
+ 
+}
+
+ 
+ i{
+  position: relative;
+  background: #fff!important;
+  border: none!important;
+  border-radius: 0px!important;
+  left: 50px!important;
+  z-index: 1;
+  height: 10px;
+  top: 13px;
+ }
+input[type="password"],  form input[type="text"]{
+  padding-left: 60px;
+}
